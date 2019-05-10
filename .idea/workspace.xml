@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="901cbf0a-e90e-4b00-b2ba-50de3a8c5a17" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/framwork.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/admin/controller/SiteController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/admin/controller/StudentController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/admin/model/StudentModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/admin/view/siteIndex.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/admin/view/student_info.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/admin/view/student_list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/config/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/home/controller/IndexController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/home/controller/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/home/controller/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/home/controller/SiteController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/home/controller/StudentController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/home/model/LoginModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/home/model/RegisterModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/home/model/StudentModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/home/view/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/home/view/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/home/view/register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/home/view/siteIndex.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/home/view/student_info.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/home/view/student_list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/Base.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/Db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/QueryBuild.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dataTables.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/ionicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/jquery.easy-pie-chart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/jquery.mCustomScrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/simple-line-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/weather-icons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/Simple-Line-Icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/Simple-Line-Icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/Simple-Line-Icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/Simple-Line-Icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/Simple-Line-Icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/fontawesome-webfont3e6e.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/fontawesome-webfont3e6e.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/fontawesome-webfont3e6e.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/fontawesome-webfont3e6e.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/fontawesome-webfont3e6e.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/fontawesome-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/ionicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/ionicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/ionicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/ionicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/weathericons-regular-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/weathericons-regular-webfont.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/weathericons-regular-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/weathericons-regular-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/weathericons-regular-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/weathericons-regular-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/01_150x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/01_40x40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/01_800x150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/32px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/about-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/flag1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/flag2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/flag4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/flag5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/product_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/product_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/product_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/product_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/product_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/product_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/product_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/product_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/radio.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/sidebar_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/small-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/throbber.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/user1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/user2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/user3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/user4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/user5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/white-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/accounting.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/calendar-basic-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/calendar-external-events-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/calendar-list-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chartjs-init-alt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/chartjs-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/custom-chart-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/dataTables.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/easy-pie-chart-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/echarts/echarts-all-3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/echarts/init-echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/flot-chart-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/flot-chart/jquery.flot.crosshair.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/flot-chart/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/flot-chart/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/flot-chart/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/flot-chart/jquery.flot.stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/flot-chart/jquery.flot.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/flot-chart/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/fullcalendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index/Chart.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index/chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index/jquery-jvectormap-1.2.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index/jquery-jvectormap-world-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index/morris-chart/morris-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index/morris-chart/morris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index/morris-chart/morris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index/morris-chart/raphael-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index/vmap-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index2/Chart.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index2/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index2/chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index2/chartjs-init-alt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index2/chartjs-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index2/flot-chart/flot-chart-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index2/flot-chart/jquery.flot.crosshair.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index2/flot-chart/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index2/flot-chart/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index2/flot-chart/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index2/flot-chart/jquery.flot.stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index2/flot-chart/jquery.flot.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index2/flot-chart/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index2/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index3/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index3/chartjs-init-alt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index3/echarts-all-3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index3/flot-chart/flot-chart-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index3/flot-chart/jquery.flot.crosshair.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index3/flot-chart/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index3/flot-chart/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index3/flot-chart/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index3/flot-chart/jquery.flot.stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index3/flot-chart/jquery.flot.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index3/flot-chart/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/index3/init-echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-jvectormap-1.2.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-jvectormap-world-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-steps/form-wizard-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-steps/jquery.steps.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-steps/jquery.steps.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-steps/jquery.stepy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery-validate-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.dcjqaccordion.2.7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.easy-pie-chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.mCustomScrollbar.concat.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.sparkline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jstree.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/morris-chart/morris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/morris-chart/morris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/morris-chart/raphael-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/morris-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/sparkline-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/underscore-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/vmap-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/edu.sql" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/framework/Db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&lt;img</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/framework/Controller.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/framework/Base.php" />
+        <option value="$PROJECT_DIR$/framework/Model.php" />
+        <option value="$PROJECT_DIR$/application/home/model/StudentModel.php" />
+        <option value="$PROJECT_DIR$/application/admin/controller/StudentController.php" />
+        <option value="$PROJECT_DIR$/application/home/controller/SiteController.php" />
+        <option value="$PROJECT_DIR$/application/home/controller/StudentController.php" />
+        <option value="$PROJECT_DIR$/application/config/config.php" />
+        <option value="$PROJECT_DIR$/application/home/view/login.php" />
+        <option value="$PROJECT_DIR$/application/home/view/register.php" />
+        <option value="$PROJECT_DIR$/application/home/model/RegisterModel.php" />
+        <option value="$PROJECT_DIR$/application/home/controller/RegisterController.php" />
+        <option value="$PROJECT_DIR$/application/home/model/LoginModel.php" />
+        <option value="$PROJECT_DIR$/framework/Controller.php" />
+        <option value="$PROJECT_DIR$/application/home/controller/LoginController.php" />
+        <option value="$PROJECT_DIR$/application/home/controller/IndexController.php" />
+        <option value="$PROJECT_DIR$/application/home/view/index.php" />
+        <option value="$PROJECT_DIR$/framework/QueryBuild.php" />
+        <option value="$PROJECT_DIR$/framework/Db.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="122" />
+    <option name="y" value="58" />
+    <option name="width" value="1616" />
+    <option name="height" value="916" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myphp_www\PHPTutorial\WWW\demo\application\home\view" />
+      <recent name="D:\myphp_www\PHPTutorial\WWW\demo\public\js" />
+      <recent name="D:\myphp_www\PHPTutorial\WWW\demo\public\img" />
+      <recent name="D:\myphp_www\PHPTutorial\WWW\demo\public\font" />
+      <recent name="D:\myphp_www\PHPTutorial\WWW\demo\public\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="901cbf0a-e90e-4b00-b2ba-50de3a8c5a17" name="Default Changelist" comment="" />
+      <created>1550824900462</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550824900462</updated>
+      <workItem from="1550824901783" duration="5865000" />
+      <workItem from="1550831296708" duration="8446000" />
+      <workItem from="1551059668882" duration="1161000" />
+      <workItem from="1551672881441" duration="607000" />
+      <workItem from="1557475358172" duration="876000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16955000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15245202" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="File Transfer" weight="0.32900432" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/framework/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-710">
+          <caret line="35" column="57" lean-forward="true" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/home/controller/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/home/view/siteIndex.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/model/StudentModel.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/admin/controller/StudentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/home/model/StudentModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/home/controller/StudentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xieshou/web/updata/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="29" column="51" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/echarts/init-echarts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/home/view/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/home/view/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="35" column="105" lean-forward="true" selection-start-line="35" selection-start-column="105" selection-end-line="35" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/home/controller/RegisterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="18" column="80" selection-start-line="18" selection-start-column="80" selection-end-line="18" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/home/controller/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/home/model/LoginModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/home/model/RegisterModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/home/controller/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/QueryBuild.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/home/view/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="81" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/Db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
